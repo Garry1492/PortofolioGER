@@ -10,7 +10,7 @@ export default function CounterRepeat({ target = 30, duration = 2000 }) {
         const entry = entries[0];
 
         if (entry.isIntersecting) {
-          // 👉 mulai animasi lagi setiap masuk viewport
+        
           let current = 0;
           const step = target / (duration / 50);
 
@@ -25,7 +25,7 @@ export default function CounterRepeat({ target = 30, duration = 2000 }) {
             setCount(Math.floor(current));
           }, 50);
         } else {
-          // 👉 reset ke 0 setiap keluar viewport
+          
           setCount(0);
         }
       },
