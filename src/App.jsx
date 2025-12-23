@@ -50,11 +50,11 @@ function App() {
       <div className="animate__animated animate__fadeInUp animate__delay-3s">
       <div className="flex items-center sm:gap-6 gap-4 justify-center">
         <a href="https://www.linkedin.com/in/garry-yehosyafat/" className="flex p-5 rounded-full bg-linear-to-br from-blue-500/20 to-blue-700/20
-        backdrop-blur-md border border-blue-300/20 hover:from-blue-500/30 hover:to-blue-700/30 transition-all sm:text-based text-sm">My Linkedin 
-          <i className="ri-linkedin-box-fill ri-lg p-1 hidden md:block"></i></a> 
+        backdrop-blur-md border border-blue-300/20 hover:from-blue-500/30 hover:to-blue-700/30 transition-all sm:text-base text-sm">My Linkedin 
+          <i className="ri-linkedin-box-fill ri-lg p-1 hidden md:block" ></i></a> 
           
-        <a href="https://drive.google.com/file/d/1MCbcw0udwfoEBE4ECud2kr4XUDoLVsOh/view?usp=sharing" className="flex p-5 rounded-full bg-linear-to-br from-red-500/20 to-red-700/20 backdrop-blur-md border border-red-300/20
-       hover:from-red-500/30 hover:to-red-700/30 hover:drop-shadow-md transition-all sm:text-based text-sm">Download CV
+        <a href="https://drive.google.com/file/d/1MCbcw0udwfoEBE4ECud2kr4XUDoLVsOh/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex p-5 rounded-full bg-linear-to-br from-red-500/20 to-red-700/20 backdrop-blur-md border border-red-300/20
+       hover:from-red-500/30 hover:to-red-700/30 hover:drop-shadow-md transition-all sm:text-base text-sm">Download CV
           <i className="ri-file-download-line ri-lg p-1 hidden md:block"></i></a>
       </div>
       </div>
