@@ -7,7 +7,7 @@ function App() {
   return (
     <>
    
-   <Snowfall color="#82C3D9"/>
+   <Snowfall color="#8fb5c2"/>
    <div className="hero items-center pt-25 sm:pt-45" id="Home">
     <div className="animate__animated animate__fadeInUp animate__delay-3s">
       
