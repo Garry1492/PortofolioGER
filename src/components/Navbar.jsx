@@ -27,6 +27,44 @@ const Navbar = () => {
     localStorage.setItem("theme", isDark ? "dark" : "light");
   }, [isDark]);
 
+const menu = [
+  {
+    label: (
+      <>
+        {/* Mobile → ICON */}
+        <i className="ri-home-8-line ri-xl block md:hidden"></i>
+
+        {/* Desktop → TEXT */}
+        <span className="hidden md:block">Home</span>
+      </>
+    ),
+    target: "Home",
+  },
+  {
+    label: "Tools",
+    target: "Tools",
+  },
+  {
+    label: "Project",
+    target: "Project",
+  },
+  {
+    label: "Equipment",
+    target: "Equipment",
+  },
+ {
+    label: (
+    <>
+        {/* Mobile → ICON */}
+        <i className="ri-briefcase-line ri-xl block md:hidden"></i>
+
+        {/* Desktop → TEXT */}
+        <span className="hidden md:block">Experience</span>
+      </>
+    )}
+];
+
+
   return (
     
     <div className="NavBar py-7 flex items-center justify-between">
@@ -49,23 +87,20 @@ const Navbar = () => {
 
       <ul
         className={`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2
-        md:translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-3 rounded-full border-zinc-900
-
+        md:translate-x-0 md:opacity-100 bg-zinc-300/30 dark:bg-zinc-900/40 backdrop-blur-md p-3 rounded-full border border-zinc-500/20 dark:border-zinc-500/10
         md:bg-transparent mt-4 transition-all md:transition-none z-40
         ${active ? "top-0 opacity-100" : "top-10 opacity-0"}`}
       >
-        {["Home", "Tools", "Project", "Equipments", "Experience"].map(
-          (item) => (
-            <li key={item}>
-              <a
-                href={`#${item}`}
-                className="text-xs md:text-lg font-medium hover:font-bold hover:text-violet-500 transition-all"
-              >
-                {item}
-              </a>
-            </li>
-          )
-        )}
+        {menu.map((item, index) => (
+  <li key={index}>
+    <a
+      href={`#${item.target}`}
+      className="text-xs md:text-lg font-medium hover:font-bold hover:text-violet-500 transition-all"
+    >
+      {item.label}
+    </a>
+  </li>
+))}
         
       </ul>
 

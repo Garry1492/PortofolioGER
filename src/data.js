@@ -132,7 +132,7 @@ export const listProyek = [
     id: 1,
     gambar: Proyek1,
     nama: "Website PASI",
-    desk: "This website is the official company profile of a NGO, created to share who they are and what they do",
+    desk: "This website is the official company profile of a NGO, created to share who they are and what they do.",
     tools: ["Wordpress", "CSS", "Javascript",],
     dad: "200",
     link: "https://ayamsejahtera.id/"
@@ -142,7 +142,7 @@ export const listProyek = [
     id: 2,
     gambar: Proyek2,
     nama: "Cataract Classification",
-    desk: "yup, This is my thesis project, where I discussed and built a model to classify cataracts in the human eye",
+    desk: "yup, This is my thesis project, where I discussed and built a model to classify cataracts in the human eye.",
     tools: ["Python", "TensorFlow", "CNN", "Vgg-19"],
     dad: "300",
     link: "https://drive.google.com/file/d/1IgA7m_q2f7tKJNiVR8BjFa4aSKuWu6QN/view?usp=sharing"
@@ -151,7 +151,7 @@ export const listProyek = [
     id: 3,
     gambar: Proyek3,
     nama: "Unity in Diversity",
-    desk: "This project was created for a competition in celebration of Semarang’s anniversary. Btw this video placed #4 😄",
+    desk: "This project was created for a competition in celebration of Semarang’s anniversary. Btw this video placed #4 😄.",
     tools: ["Premiere Pro", "After Effect", "Davinci Resolve"],
     dad: "400",
     link:"https://www.instagram.com/reel/CqzzpORvkqB/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=="
@@ -160,7 +160,7 @@ export const listProyek = [
     id: 4,
     gambar: Proyek4,
     nama: "HMIF Profile Video 2021",
-    desk: "A profile video project I contribute for an college organization I used to be part of (2021)",
+    desk: "A profile video project I contribute for an college organization I used to be part of (2021).",
     tools: ["Premiere Pro", "After Effect"],
     dad: "500",
     link:"https://www.youtube.com/watch?v=3NRnR2bdZBI"
@@ -169,7 +169,7 @@ export const listProyek = [
     id: 5,
     gambar: Proyek5,
     nama: "HMIF Profile Video 2022",
-    desk: "A profile video project I contribute for an college organization I used to be part of (2022)",
+    desk: "A profile video project I contribute for an college organization I used to be part of (2022).",
     tools: ["Premiere Pro", "After Effect"],
     dad: "600",
     link:"https://www.youtube.com/watch?v=F-4QQuaeKfs&t=701s"
