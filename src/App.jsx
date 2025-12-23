@@ -227,8 +227,8 @@ function App() {
     </div>
 {/* End of section */}
 {/* section Equipments*/}
-        <div className="equipment mt-10 sm:mt-20 py-10" id="Equipments">
-          <h1 className="text-2xl sm:text-3xl text-center font-bold mb-2">EQUIPMENTS</h1>
+        <div className="equipment mt-10 sm:mt-20 py-10" id="Equipment">
+          <h1 className="text-2xl sm:text-3xl text-center font-bold mb-2">EQUIPMENT</h1>
           <p className="text-sm sm:text-base text-center font-semibold opacity-70">These are the tools I use to create something magical</p>
           <div className="equipment-box mt-14 grid lg:grid-cols-4  md:grid-cols-3  sm:grid-cols-1 gap-4
           " data-aos="fade-up" data-aos-duration="1500">
@@ -345,7 +345,7 @@ function App() {
                         </div>
         {/* Diskominfo */}
         <div className="bg-linear-to-br from-white/30 to-white/20 dark:from-white/10 dark:to-white/5  backdrop-blur-md border border-white/20 
-               hover:from-zinc/20 hover:to-zinc/10 transition rounded-2xl p-6 shadow-md hover:shadow-lg mt-5" data-aos="fade-up" data-aos-duration="1500"data-aos-delay="400">
+               hover:from-white/20 hover:to-white/10 transition rounded-2xl p-6 shadow-md hover:shadow-lg mt-5" data-aos="fade-up" data-aos-duration="1500"data-aos-delay="400">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12  flex items-center justify-center overflow-hidden">
                          <img src="/assets/LogoSemarang.png" alt="PT Sarimunik Mandiri" className="w-full h-full object-contain"/>

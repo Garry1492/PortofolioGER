@@ -61,7 +61,9 @@ const menu = [
         {/* Desktop → TEXT */}
         <span className="hidden md:block">Experience</span>
       </>
-    )}
+    ),
+    target: "Experience",
+  }
 ];
 
 

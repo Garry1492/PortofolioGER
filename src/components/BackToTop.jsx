@@ -27,11 +27,12 @@ const BackToTop = () => {
     <button
       onClick={scrollTop}
       aria-label="scroll"
-      className={`fixed sm:bottom-10 sm:right-10 bottom-10 right-6 p-3 rounded-full 
+      className={`fixed sm:bottom-10 sm:right-10 bottom-20 right-6 p-3 rounded-full  
         bg-white/10 backdrop-blur-md 
         border border-white/20 
         shadow-lg hover:bg-white/20
         transition-all Z-9999
+        
         ${visible ? "opacity-100" : "opacity-0 pointer-events-none"}
       `}
     >
