@@ -43,7 +43,7 @@ function App() {
       <p className="text-sm sm:text-base/loose mb-8 sm:mb-12 opacity-50 text-center  w-full sm:w-3/4 md:w-3/4 justify-center mx-auto px-4 break-word relative overflow-hidden"> Hi, long time no see! <span className = "underline italic font-bold">Welcome to my universe.</span> I built this space so you can get to know me better, hehe.
       You’ll find my projects, tools, resume, social media, and a bit information about who I am.
 
-      Thanks for taking the time to visit my universe. I guess that’s it enough,<span className = "font-bold font-style:italic "> until next time...PIWWW 🚀</span>
+      Thanks for taking the time to visit my universe. I guess that’s it enough,<p className = "mt-2 font-bold italic "> Until next time...PIWWW 🚀</p>
         
       </p>
       </div>
