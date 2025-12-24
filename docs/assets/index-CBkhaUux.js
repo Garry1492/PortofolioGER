@@ -28,7 +28,7 @@ Error generating stack: `+e.message+`
         transition-opacity duration-700 ease-in-out
         ${t?`opacity-100`:`opacity-0 pointer-events-none`}
       `,children:(0,O.jsx)(`video`,{src:`/assets/BUMPER.mp4`,autoPlay:!0,muted:!0,playsInline:!0,preload:`auto`,onEnded:r,className:`w-screen h-screen object-cover`})})},Ge=()=>{let e=localStorage.getItem(`theme`);return e?e===`dark`:window.matchMedia(`(prefers-color-scheme: dark)`).matches},Ke=()=>{let[e,t]=(0,_.useState)(!1),[n,r]=(0,_.useState)(Ge);return(0,_.useEffect)(()=>{let e=()=>{t(window.scrollY>150)};return window.addEventListener(`scroll`,e),()=>window.removeEventListener(`scroll`,e)},[]),(0,_.useEffect)(()=>{document.documentElement.classList.toggle(`dark`,n),localStorage.setItem(`theme`,n?`dark`:`light`)},[n]),(0,O.jsxs)(`div`,{className:`NavBar relative z-50 py-7 flex items-center justify-between px-6`,children:[(0,O.jsxs)(`div`,{className:`logo`,children:[(0,O.jsx)(`img`,{src:`/assets/logozinc2.png`,className:`h-8 w-auto block dark:hidden`,alt:`Logo Light`}),(0,O.jsx)(`img`,{src:`/assets/logo1.png`,className:`h-8 w-auto hidden dark:block`,alt:`Logo Dark`})]}),(0,O.jsx)(`ul`,{className:`menu flex items-center gap-4 sm:gap-10
-        md:static fixed left-1/2 -translate-x-1/2
+         fixed left-1/2 -translate-x-1/2
         md:translate-x-0
         bg-zinc-300/30 dark:bg-zinc-900/40
         backdrop-blur-md

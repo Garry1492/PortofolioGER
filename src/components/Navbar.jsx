@@ -70,7 +70,7 @@ const Navbar = () => {
       {/* MENU */}
       <ul
         className={`menu flex items-center gap-4 sm:gap-10
-        md:static fixed left-1/2 -translate-x-1/2
+         fixed left-1/2 -translate-x-1/2
         md:translate-x-0
         bg-zinc-300/30 dark:bg-zinc-900/40
         backdrop-blur-md
