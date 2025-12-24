@@ -7,7 +7,7 @@ html, body {
   overflow-x: hidden;
 }
 
-@custom-variant dark (&:where(.dark, .dark *));
+
 
 html, body {
   font-family: "Poppins", system-ui, sans-serif;
