@@ -1,4 +1,12 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  font-family: "Poppins", system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 html, body {
