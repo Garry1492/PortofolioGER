@@ -5,6 +5,9 @@ import InfiniteRow from "./components/InfiniteRow";
 import Snowfall from "react-snowfall";
 import { useState, useEffect } from "react";
 import Preloader from "./components/PreLoader";
+import Navbar from "./components/Navbar"; 
+import Footer from "./components/Footer"; 
+import BackToTop from "./components/BackToTop";
 
 function App() {
   const [loading, setLoading] = useState(true);
