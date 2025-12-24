@@ -3,6 +3,9 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  base: '/', // INI BENER karena custom domain
+  plugins: [react()],
+  base: '/',
+  build: {
+    outDir: 'docs'
+  }
 })
