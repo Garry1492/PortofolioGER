@@ -23,14 +23,20 @@ function App() {
 
   return (
     <>
+    <main className="min-h-screen bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-950 dark:to-neutral-800 text-zinc-700 dark:text-zinc-300 transition-colors duration-700 ease-in-out">
+      <div className="container mx-auto px-3 min-h-full">
+        <BackToTop />
+        <Navbar />
       {/* PRELOADER — OVERLAY, BUKAN RETURN */}
       <Preloader loading={loading} onFinish={() => setLoading(false)} />
 
       {/* ====== SEMUA KONTEN LU (TIDAK DIUBAH) ====== */}
       <Snowfall color="#8fb5c2" />
 
+      {/* NAV */}
+
       {/* HERO */}
-   <Snowfall color="#8fb5c2"/>
+   
    <div className="hero items-center pt-25 sm:pt-45" id="Home">
     <div className="animate__animated animate__fadeInUp animate__delay-3s">
       
@@ -394,9 +400,11 @@ function App() {
                         </div>
                         
             
-      
+          <Footer />
         </div>
       </div>
+      </div>
+      </main>
       
     </>
   )
