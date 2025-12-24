@@ -8,6 +8,7 @@ import Preloader from "./components/PreLoader";
 import Navbar from "./components/Navbar"; 
 import Footer from "./components/Footer"; 
 import BackToTop from "./components/BackToTop";
+import 'remixicon/fonts/remixicon.css'
 
 function App() {
   const [loading, setLoading] = useState(true);
