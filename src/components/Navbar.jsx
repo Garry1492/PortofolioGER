@@ -1,8 +1,15 @@
 import { useState, useEffect } from "react";
 
+// === GET INITIAL THEME (FIX FLICKER) ===
+const getInitialTheme = () => {
+  const saved = localStorage.getItem("theme");
+  if (saved) return saved === "dark";
+  return window.matchMedia("(prefers-color-scheme: dark)").matches;
+};
+
 const Navbar = () => {
   const [active, setActive] = useState(false);
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(getInitialTheme);
 
   // === HANDLE SCROLL NAVBAR ===
   useEffect(() => {
@@ -12,14 +19,6 @@ const Navbar = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  // === LOAD THEME (localStorage / system) ===
-  useEffect(() => {
-    const savedTheme = localStorage.getItem("theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-    setIsDark(savedTheme ? savedTheme === "dark" : prefersDark);
   }, []);
 
   // === APPLY THEME ===
@@ -112,7 +111,9 @@ const Navbar = () => {
           hover:bg-zinc-300 dark:hover:bg-zinc-800
         "
       >
-        {isDark ? "🌙" : "☀️"}
+        <span className="transition-transform duration-300">
+          {isDark ? "🌙" : "☀️"}
+        </span>
       </button>
     </div>
   );
