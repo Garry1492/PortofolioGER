@@ -80,7 +80,7 @@ const Navbar = () => {
         transition-all
         z-40
         ${active ? "top-0 opacity-100" : "top-10 opacity-0"}
-        md:opacity-100 md:top-0`}
+        md:opacity-100 md:top-6`}
       >
         {menu.map((item, index) => (
           <li key={index}>
