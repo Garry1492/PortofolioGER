@@ -91,16 +91,16 @@ Error generating stack: `+e.message+`
       aos: MutationObserver is not supported on this browser,
       code mutations observing has been disabled.
       You may have to call "refreshHard()" by yourself.
-    `),j.disableMutationObserver=!0),j.disableMutationObserver||he.ready(`[data-aos]`,Ae),Me(j.disable)||Oe()?je():(document.querySelector(`body`).setAttribute(`data-aos-easing`,j.easing),document.querySelector(`body`).setAttribute(`data-aos-duration`,j.duration),document.querySelector(`body`).setAttribute(`data-aos-delay`,j.delay),[`DOMContentLoaded`,`load`].indexOf(j.startEvent)===-1?document.addEventListener(j.startEvent,function(){ke(!0)}):window.addEventListener(`load`,function(){ke(!0)}),j.startEvent===`DOMContentLoaded`&&[`complete`,`interactive`].indexOf(document.readyState)>-1&&ke(!0),window.addEventListener(`resize`,T(ke,j.debounceDelay,!0)),window.addEventListener(`orientationchange`,T(ke,j.debounceDelay,!0)),Ee)},refresh:ke,refreshHard:Ae}})}))(),1).default.init(),(0,g.createRoot)(document.getElementById(`root`)).render((0,O.jsx)(_.StrictMode,{children:(0,O.jsxs)(`main`,{className:`
-            min-h-screen
-            bg-linear-to-br
-            from-zinc-100 to-zinc-200
-            text-
-            dark:bg-linear-to-br
-            dark:from-zinc-950
-            dark:to-neutral-800
-            text-zinc-700 dark:text-zinc-300
-            transition-colors duration-700 ease-in-out
+    `),j.disableMutationObserver=!0),j.disableMutationObserver||he.ready(`[data-aos]`,Ae),Me(j.disable)||Oe()?je():(document.querySelector(`body`).setAttribute(`data-aos-easing`,j.easing),document.querySelector(`body`).setAttribute(`data-aos-duration`,j.duration),document.querySelector(`body`).setAttribute(`data-aos-delay`,j.delay),[`DOMContentLoaded`,`load`].indexOf(j.startEvent)===-1?document.addEventListener(j.startEvent,function(){ke(!0)}):window.addEventListener(`load`,function(){ke(!0)}),j.startEvent===`DOMContentLoaded`&&[`complete`,`interactive`].indexOf(document.readyState)>-1&&ke(!0),window.addEventListener(`resize`,T(ke,j.debounceDelay,!0)),window.addEventListener(`orientationchange`,T(ke,j.debounceDelay,!0)),Ee)},refresh:ke,refreshHard:Ae}})}))(),1).default.init(),(0,g.createRoot)(document.getElementById(`root`)).render((0,O.jsx)(_.StrictMode,{children:(0,O.jsxs)(`main`,{className:`\r
+            min-h-screen\r
+            bg-linear-to-br\r
+            from-zinc-100 to-zinc-200\r
+            text-\r
+            dark:bg-linear-to-br\r
+            dark:from-zinc-950\r
+            dark:to-neutral-800\r
+            text-zinc-700 dark:text-zinc-300\r
+            transition-colors duration-700 ease-in-out\r
           `,children:[(0,O.jsx)(()=>{let[e,t]=(0,_.useState)(!0);return(0,O.jsx)(`div`,{className:`fixed inset-0 z-9999 bg-black flex items-center justify-center
       transition-opacity duration-1200ms ease-in-out
       ${e?`opacity-100`:`opacity-0 pointer-events-none`}`,children:(0,O.jsx)(`video`,{src:`/assets/BUMPER.mp4`,autoPlay:!0,muted:!0,playsInline:!0,preload:`auto`,onEnded:()=>t(!1),className:`w-full h-full object-cover`})})},{}),(0,O.jsxs)(`div`,{className:`container mx-auto px-3 min-h-full`,children:[(0,O.jsx)(()=>{let[e,t]=(0,_.useState)(!1);return(0,_.useEffect)(()=>{let e=()=>{window.scrollY>300?t(!0):t(!1)};return window.addEventListener(`scroll`,e),()=>window.removeEventListener(`scroll`,e)},[]),(0,O.jsx)(`button`,{onClick:()=>{window.scrollTo({top:0,behavior:`smooth`})},"aria-label":`scroll`,className:`fixed sm:bottom-10 sm:right-10 bottom-20 right-6 p-3 rounded-full  
