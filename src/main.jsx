@@ -19,19 +19,20 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     
 
-        <main
-          className="
-            min-h-screen
-            bg-linear-to-br
-            from-zinc-100 to-zinc-200
-            text-
-            dark:bg-linear-to-br
-            dark:from-zinc-950
-            dark:to-neutral-800
-            text-zinc-700 dark:text-zinc-300
-            transition-colors duration-700 ease-in-out
-          "
-        >
+       <main
+  className="
+    min-h-screen
+    bg-linear-to-br
+    from-zinc-100 to-zinc-200
+    text-
+    dark:bg-linear-to-br
+    dark:from-zinc-950
+    dark:to-neutral-800
+    text-zinc-700 dark:text-zinc-300
+    transition-colors duration-700 ease-in-out
+  "
+>
+
           <PreLoader />
 
           <div className="container mx-auto px-3 min-h-full">
