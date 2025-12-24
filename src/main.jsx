@@ -4,12 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackToTop";
 
-function App() {
-  const [loading, setLoading] = useState(true);
 
-  if (loading) {
-    return <Preloader onFinish={() => setLoading(false)} />;
-  }
 
   return (
     <main
@@ -31,6 +26,6 @@ function App() {
       </div>
     </main>
   );
-}
+
 
 export default App;
