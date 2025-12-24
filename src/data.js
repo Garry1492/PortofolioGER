@@ -221,7 +221,7 @@ export const listEquipment = [
   {
     id: 4,
     gambar: Equipment4,
-    nama: "Lumix Lens 16-35mm f3.5-5.6",
+    nama: "Lumix Lens 14-42mm f3.5-5.6",
     desk: "cheap and powerfull",
     tools: ["O.I.S"],
     dad: "500",
