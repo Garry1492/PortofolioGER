@@ -38,7 +38,7 @@ function App() {
 
       {/* HERO */}
    
-   <div className="hero items-center pt-24 sm:pt-32" id="Home">
+   <div className="hero items-center pt-24 sm:pt-40" id="Home">
     <div className="animate__animated animate__fadeInUp animate__delay-3s">
       
       <h1 className="text-2xl sm:text-5xl font-bold mb-8 sm:mb-12 text-center">
