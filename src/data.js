@@ -154,7 +154,7 @@ export const listProyek = [
     desk: "This project was created for a competition in celebration of Semarang’s anniversary. Btw this video placed #4 😄.",
     tools: ["Premiere Pro", "After Effect", "Davinci Resolve"],
     dad: "400",
-    link:"https://www.instagram.com/reel/CqzzpORvkqB/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=="
+    link:"https://youtu.be/aRmpMwxRe0Y"
   },
   {
     id: 4,

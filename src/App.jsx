@@ -179,7 +179,7 @@ function App() {
           {listProyek.map((project) => (
             <div
                 key={project.id }  
-                className="p-4  backdrop-blur-xl
+                className="p-4  backdrop-blur-xl 
     transition-all duration-500 ease-in-out rounded-2xl
 
     /* LIGHT MODE */
