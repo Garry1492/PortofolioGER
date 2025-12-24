@@ -10,17 +10,18 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // safety net kalau video error
-    const timer = setTimeout(() => {
+    // fallback ONLY (kalau video error)
+    const safety = setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 6000);
 
-    return () => clearTimeout(timer);
+    return () => clearTimeout(safety);
   }, []);
 
   if (loading) {
     return <Preloader onFinish={() => setLoading(false)} />;
   }
+
 
   return (
     <>

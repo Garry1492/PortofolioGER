@@ -1,6 +1,6 @@
 const Preloader = ({ onFinish }) => {
   return (
-    <div className="fixed inset-0 z-[9999] bg-black flex items-center justify-center">
+    <div className="fixed inset-0 z-[9999] bg-black">
       <video
         src="/assets/BUMPER.mp4"
         autoPlay
