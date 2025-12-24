@@ -37,7 +37,7 @@ Error generating stack: `+e.message+`
         md:bg-transparent
         transition-all
         z-40
-        ${e?`top-0 opacity-100`:`top-10 opacity-0`}
+        ${e?`top-6 opacity-100`:`top-10 opacity-0`}
         md:opacity-100 md:top-6`,children:[{label:(0,O.jsxs)(O.Fragment,{children:[(0,O.jsx)(`i`,{className:`ri-home-8-line ri-xl block md:hidden`}),(0,O.jsx)(`span`,{className:`hidden md:block`,children:`Home`})]}),target:`Home`},{label:`Tools`,target:`Tools`},{label:`Project`,target:`Project`},{label:`Equipment`,target:`Equipment`},{label:(0,O.jsxs)(O.Fragment,{children:[(0,O.jsx)(`i`,{className:`ri-briefcase-line ri-xl block md:hidden`}),(0,O.jsx)(`span`,{className:`hidden md:block`,children:`Experience`})]}),target:`Experience`}].map((e,t)=>(0,O.jsx)(`li`,{children:(0,O.jsx)(`a`,{href:`#${e.target}`,className:`text-xs md:text-lg font-medium hover:font-bold hover:text-violet-500 transition-all`,children:e.label})},t))}),(0,O.jsx)(`button`,{"aria-label":`Toggle dark mode`,onClick:()=>r(!n),className:`\r
           relative z-50\r
           flex items-center justify-center\r
