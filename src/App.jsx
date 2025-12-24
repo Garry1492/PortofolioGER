@@ -3,8 +3,25 @@ import { listTools, listProyek } from "./data";
 import CounterOnScroll from "./CounterOnScroll";
 import InfiniteRow from "./components/InfiniteRow";
 import Snowfall from "react-snowfall";
+import { useState, useEffect } from "react";
+import Preloader from "./components/PreLoader";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // safety net kalau video error
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Preloader onFinish={() => setLoading(false)} />;
+  }
+
   return (
     <>
       <Snowfall color="#8fb5c2" />
