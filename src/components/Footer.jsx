@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="w-full py-10 pb-28 md:pb-10">
+    <footer className="w-full py-10 pb-24 md:pb-8">
       {/* divider */}
       <div className="mb-8 border-t border-white/20"></div>
 
