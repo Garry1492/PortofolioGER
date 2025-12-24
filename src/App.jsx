@@ -31,7 +31,7 @@ function App() {
       <div className="hero items-center pt-25 sm:pt-45" id="Home">
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <h1 className="text-2xl sm:text-5xl font-bold mb-8 sm:mb-12 text-center">
-            Wazzup, I’m Garry
+            Wazzup, I’m parry
             <span className="ml-1 inline-flex items-center justify-center w-10">
               🍺
             </span>
