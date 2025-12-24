@@ -79,11 +79,11 @@ function App() {
       </div>
       <div className="animate__animated animate__fadeInUp animate__delay-3s">
       <div className="flex items-center sm:gap-6 gap-4 justify-center">
-        <a href="https://www.linkedin.com/in/garry-yehosyafat/" className="flex p-5 rounded-full bg-linear-to-br from-blue-500/20 to-blue-700/20
+        <a href="https://www.linkedin.com/in/garry-yehosyafat/" className="flex p-5 rounded-full bg-gradient-to-br from-blue-500/20 to-blue-700/20
         backdrop-blur-md border border-blue-300/20 hover:from-blue-500/30 hover:to-blue-700/30 transition-all sm:text-base text-sm">My Linkedin 
           <i className="ri-linkedin-box-fill ri-lg p-1 hidden md:block" ></i></a> 
           
-        <a href="https://drive.google.com/file/d/1MCbcw0udwfoEBE4ECud2kr4XUDoLVsOh/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex p-5 rounded-full bg-linear-to-br from-red-500/20 to-red-700/20 backdrop-blur-md border border-red-300/20
+        <a href="https://drive.google.com/file/d/1MCbcw0udwfoEBE4ECud2kr4XUDoLVsOh/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex p-5 rounded-full bg-gradient-to-br from-red-500/20 to-red-700/20 backdrop-blur-md border border-red-300/20
        hover:from-red-500/30 hover:to-red-700/30 hover:drop-shadow-md transition-all sm:text-base text-sm">Download CV
           <i className="ri-file-download-line ri-lg p-1 hidden md:block"></i></a>
       </div>
@@ -154,14 +154,14 @@ function App() {
   {/* LOGO HITAM (LIGHT MODE) */}
   <img
     src="/assets/logozinc2.png"
-    className="w-15 sm:w-20 h-auto block dark:hidden sm:block"
+    className="w-16 sm:w-20 h-auto block dark:hidden sm:block"
     alt="Logo"
   />
 
   {/* LOGO PUTIH (DARK MODE) */}
   <img
     src="/assets/logo1.png"
-    className="w-15 sm:w-20 h-auto hidden dark:block sm:blok"
+    className="w-16 sm:w-20 h-auto hidden dark:block sm:blok"
     alt="Logo"
   />
 </div>
@@ -240,7 +240,7 @@ function App() {
         <div className="mt-6 text-center font-semibold">
           {project.link && (
             <a href={project.link} target="_blank" rel="noopener noreferrer"
-              className="p-2 sm:p-4 block rounded-full bg-linear-to-br from-blue-500/20 to-blue-700/20
+              className="p-2 sm:p-4 block rounded-full bg-gradient-to-br from-blue-500/20 to-blue-700/20
          border border-blue-300/50 hover:from-blue-500/30 hover:to-blue-700/30
   dark:violet-950 dark:to-slate-700
   backdrop-blur-md
@@ -302,7 +302,7 @@ function App() {
             <div className="max-w-5xl mx-auto px-6">
                   
             {/* Experience Item */}
-              <div className="bg-linear-to-br from-white/30 to-white/20 dark:from-white/10 dark:to-white/5 backdrop-blur-md border border-white/20 
+              <div className="bg-gradient-to-br from-white/30 to-white/20 dark:from-white/10 dark:to-white/5 backdrop-blur-md border border-white/20 
                hover:from-white/20 hover:to-white/10 transition rounded-2xl p-6 shadow-md hover:shadow-lg mt-14" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
                   <div className="flex items-start gap-4">
                     <div className="w-20 h-12 flex items-center justify-center overflow-hidden">
@@ -346,10 +346,10 @@ function App() {
           </div>
       </div>
       {/* Freelance*/}
-      <div className="bg-linear-to-br from-white/30 to-white/20 dark:from-white/10 dark:to-white/5 backdrop-blur-md border border-white/20 
+      <div className="bg-gradient-to-br from-white/30 to-white/20 dark:from-white/10 dark:to-white/5 backdrop-blur-md border border-white/20 
                hover:from-white/20 hover:to-white/10 transition rounded-2xl p-6 shadow-md hover:shadow-lg mt-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
                   <div className="flex items-start gap-4">
-                    <div className="w-15 h-12  flex items-center justify-center overflow-hidden">
+                    <div className="w-16 h-12  flex items-center justify-center overflow-hidden">
                       <div className="logo">
                          <img src="/assets/logozinc2.png" alt="ger" className="w-full h-full object-contain block dark:hidden"/>
                          <img src="/assets/logo1.png" alt="ger2" className="w-full h-full object-contain hidden dark:block" />
@@ -374,7 +374,7 @@ function App() {
                             </div>
                         </div>
         {/* Diskominfo */}
-        <div className="bg-linear-to-br from-white/30 to-white/20 dark:from-white/10 dark:to-white/5  backdrop-blur-md border border-white/20 
+        <div className="bg-gradient-to-br from-white/30 to-white/20 dark:from-white/10 dark:to-white/5  backdrop-blur-md border border-white/20 
                hover:from-white/20 hover:to-white/10 transition rounded-2xl p-6 shadow-md hover:shadow-lg mt-5" data-aos="fade-up" data-aos-duration="1500"data-aos-delay="400">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12  flex items-center justify-center overflow-hidden">
