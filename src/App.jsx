@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer"; 
 import BackToTop from "./components/BackToTop";
 import 'remixicon/fonts/remixicon.css'
+import 'animate.css';
 
 function App() {
   const [loading, setLoading] = useState(true);
