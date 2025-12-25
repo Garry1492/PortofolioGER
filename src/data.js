@@ -160,7 +160,7 @@ export const listProyek = [
     id: 4,
     gambar: Proyek4,
     nama: "HMIF Profile Video 2021",
-    desk: "A profile video project I contribute for an college organization I used to be part of (2021).",
+    desk: "A profile video project I contribute for a college organization I used to be part of (2021).",
     tools: ["Premiere Pro", "After Effect"],
     dad: "500",
     link:"https://www.youtube.com/watch?v=3NRnR2bdZBI"
@@ -169,7 +169,7 @@ export const listProyek = [
     id: 5,
     gambar: Proyek5,
     nama: "HMIF Profile Video 2022",
-    desk: "A profile video project I contribute for an college organization I used to be part of (2022).",
+    desk: "A profile video project I contribute for a college organization I used to be part of (2022).",
     tools: ["Premiere Pro", "After Effect"],
     dad: "600",
     link:"https://www.youtube.com/watch?v=F-4QQuaeKfs&t=701s"
