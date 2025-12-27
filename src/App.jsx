@@ -278,7 +278,7 @@ function App() {
     dark:hover-bg-zing-800/40
     dark:border-white/10
     dark:shadow-[0_8px_30px_rgba(0,0,0,0.35)]"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay={equipment.dad}>
-            <img src={equipment.gambar} alt="equipment image" loading="lazy" className="rounded-2xl mx-auto w-auto h-50 p-2 object-contain" />
+            <img src={equipment.gambar} alt="equipment image" loading="lazy" className="rounded-2xl mx-auto w-auto h-48 p-2 object-contain" />
             <div>
               <h1 className="text-xl sm:text-2xl font-bold my-4"> {equipment.nama}</h1>
               <p className="text-sm sm:text-base/loose mb-4">{equipment.desk}</p>
