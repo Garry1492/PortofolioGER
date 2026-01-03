@@ -118,9 +118,31 @@ function App() {
     dark:bg-zinc-900/60
     dark:border-white/10
     dark:shadow-[0_8px_30px_rgba(0,0,0,0.35)]" data-aos="fade-right" data-aos-duration="1500" >
-        <img
-          src="/assets/geriii.png" alt="profile" className="absolute bottom-0 left-1/2 -translate-x-1/2 sm:w-48 lg:w-full rounded-2xl object-cover shadow-lg items-center-safe"
-        />
+  <div className="relative group h-full overflow-hidden rounded-2xl">
+  <img
+  src="/assets/fixfotogeri.JPG"
+  alt="profile"
+  className="
+    w-full h-full
+    object-cover
+    rounded-2xl
+    shadow-lg
+  "
+/>
+
+
+  {/* OVERLAY HITAM */}
+  <div
+    className="
+      absolute inset-0
+      dark:bg-zinc-800/40
+      bg-zinc-400/30
+      transition-opacity duration-300
+      group-hover:opacity-0
+      pointer-events-none
+    "
+  />
+</div>
       </div>
     </div>
 
